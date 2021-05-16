@@ -104,7 +104,7 @@ body {
 #h_logo h2 {
   padding: 0px 0 0 0px;  /*-- logo 上側 位置 --*/
   margin: 0;
-  font-family:arial unicode ms;
+  font-family:ヒラギノ角ゴ pro W3;
 }
 
 #h_logo img {
@@ -238,7 +238,7 @@ body {
   color: #FF8000;
   text-align: center;
   font-weight: bold;
-  font-family: arial unicode ms;
+  font-family: ヒラギノ角ゴ pro W3;
 }
 
 
@@ -482,7 +482,7 @@ td.table {
   padding: 14px 14px 10px 14px;
   width: auto;
   text-align: center;
-  font-family: arial unicode ms;
+  font-family: ヒラギノ角ゴ pro W3;
 
 }
 
@@ -492,7 +492,7 @@ td.table_1 {
   padding: 14px 14px 10px 14px;
   width: auto;
   color: #FFFFFF;
-  font-family: arial unicode ms;
+  font-family: ヒラギノ角ゴ pro W3;
   font-size: 1.1em;
   font-weight: bold;
   background-color: #FF8000;
@@ -516,7 +516,7 @@ td.table_3 {
   font-size: 1.0em;
   width: auto;
   background-color: #fff8ee;
-  font-family: arial unicode ms;
+  font-family: ヒラギノ角ゴ pro W3;
   text-align: center;
 
 }
