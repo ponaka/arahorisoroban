@@ -775,6 +775,25 @@ td.b_big_x {
   width: auto;
   text-align: center;
 }
+  
+  .textCenter {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em !important;
+  height: auto;
+  margin: 0 0 14px 0;
+  padding: 5px 0 0 0;
+}
+
+.textCenter2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px !important;
+  height: auto;
+  margin: 0 0 10px 0;
+  padding: 5px 0 0 0;
+  border-bottom: 1px solid #dee7ec;
+}
 
 
 /*---------- フッター ----------*/
