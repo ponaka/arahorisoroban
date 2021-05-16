@@ -1,0 +1,475 @@
+<!DOCTYPE  HTML>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+    荒堀そろばん学習塾
+  </title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="荒堀そろばん学習塾">
+  <meta name="keywords" content="そろばん, 草津市, 学習塾, 南草津, そろばん　南草津, そろばん 南草津, 荒堀そろばん, 幼児教育">
+  <link rel="stylesheet" href="css/sp.css">
+  <link rel="stylesheet" href="css/pc.css">
+
+  <!-- スライドショー用 -->
+  <link href="slick-theme.css" rel="stylesheet" type="text/css">
+  <link href="slick.css" rel="stylesheet" type="text/css">
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="slick.min.js"></script>
+
+  <!-- ＃リンクのスムーススクロール -->
+  <link rel="stylesheet" href="sample.css" type="text/css">
+  <script type="text/javascript" src="jquery-3.1.0.min.js"></script>
+
+  <!-- 以下JSコード -->
+  <script type="text/javascript">
+
+  var jq162 = jQuery.noConflict(true);
+
+  $(function(){
+    $('.slider').slick({
+      autoplay:true,
+      autoplaySpeed:5000,
+      dots:true,
+    });
+  });
+
+  $(function(){
+    // #で始まるリンクをクリックしたら実行されます
+    $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      let speed = 400; // ミリ秒で記述
+      let href= $(this).attr("href");
+      let target = $(href == "#" || href == "" ? 'html' : href);
+      let position = target.offset().top;
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+    });
+  });
+
+
+  $(function(){
+    $('#feed').load('RSSフィードを読み込んだphpファイルまでのパス');
+  });
+
+</script>
+</head>
+<body>
+
+  <!-- メイン -->
+  <div id="main">
+
+    <!-- ヘッダー -->
+    <div id="header">
+      <h1>
+        滋賀県草津市にある国語・算数・そろばんを取り入れた個別学習塾です
+      </h1>
+      <div id="header_inner" class="clearfix">
+        <div id="h_logo">
+          <h2>
+            荒堀そろばん学習塾
+          </h2>
+          <p class="h_sub">
+            Arahori Abacus-Study School
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ヘッダー終わり -->
+
+    <p id="index">&nbsp;</p>
+
+    <!-- メイン画像 ここから -->
+    <div id="header-img">
+      <ul class="slider">
+        <li><a href="#"><img src="img/head_img01.png" width="1500" height="500" alt="image01"></a></li>
+        <li><a href="#"><img src="img/head_img02.png" width="1500" height="500" alt="image02"></a></li>
+        <li><a href="#"><img src="img/head_img03.png" width="1500" height="500" alt="image03"></a></li>
+        <li><a href="#"><img src="img/head_img04.png" width="1500" height="500" alt="image04"></a></li>
+        <li><a href="#"><img src="img/head_img05.png" width="1500" height="500" alt="image05"></a></li>
+      </ul>
+    </div>
+    <!-- メイン画像 ここまで -->
+
+
+    <!-- メインコンテンツ -->
+    <div id="container">
+      <div id="contents">
+
+        <h2>
+          荒堀そろばん学習塾の３つの選べるコース
+        </h2>
+
+        <!-- ３コンテンツ・ボックス ここから -->
+
+        <div class="box">
+          <div class="box1">
+            <p><img src="img/point01.jpg" alt="photo"></p>
+            <p><span class="b_big_x">
+              そろばん＋学習コース
+            </span><br>
+            そろばんだけじゃなく学校の進度に合わせて国語・算数も学べるから、学校の勉強も心配いらず！
+          </p>
+        </div>
+
+        <div class="box2">
+          <p><img src="img/point02.jpg" alt="photo"></p>
+          <p><span class="b_big_x">
+            そろばんコース
+          </span><br>
+          大人からそろばんを習いたい、珠算暗算の大会に向けて頑張りたいなどそろばんを真剣に取り組みたい人におすすめ！
+        </p>
+      </div>
+
+      <div class="box3">
+        <p><img src="img/point03.jpg" alt="photo"></p>
+        <p><span class="b_big_x">
+          そろばん幼児コース
+        </span><br>
+        子どもが３歳から小学生になるまでに、よみ・かき・そろばんの幼児教育をさせたいという方！
+      </p>
+    </div>
+  </div>
+  <!-- ３コンテンツ・ボックス ここまで -->
+
+  <!-- コース・ボタン ここから -->
+
+  <div class="button2-c-wrap">
+    <a href="#5" class="button2 button2-c"><span>学校の勉強と両立したい方はコチラ！</span><br><i class="far fa-file-alt"></i>そろばん＋学習<br>コース</a>
+  </div>
+
+  <div class="button1-c-wrap">
+    <a href="#6" class="button1 button1-c"><span>そろばんに集中したい方はコチラ！</span><br><i class="fas fa-file-download"></i> そろばん<br>コース</a>
+  </div>
+
+  <div class="button3-c-wrap">
+    <a href="#7" class="button3 button3-c"><span>３歳からそろばんを習いたい方は<br>コチラ！</span><br>そろばん幼児<br>コース <i class="far fa-envelope"></i></a>
+  </div>
+
+  <!-- コース・ボタン ここまで -->
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p id="1">&nbsp;</p>
+  <p>&nbsp;</p>
+
+
+  <div class="flex_bg">
+    <div class="inners">
+
+      <p>&nbsp;</p>
+
+      <h2>
+        ごあいさつ
+      </h2>
+
+      <p>&nbsp;</p>
+
+      <p><img class="picture_r" src="img/profile.jpg" width="300" height="210" alt="photo"></p>
+
+      <p><span class="brown_big_x">
+        二児の母がやさしく、時にきびしく、しっかりした子を育てます
+      </span></p>
+
+      <p>
+        はじめまして、数ある中からご覧いただきありがとうございます。大学生、高校生の娘を持つ母です。
+      </p>
+      <p>滋賀県草津市で珠算塾をしております。日本珠算連盟所属の先生にご指導ご鞭撻を受け、現在開塾から10年が過ぎました。地域の皆様とのご縁に感謝し毎日の生徒達の小さな成長を楽しみに頑張っています。</p>
+      <p>挨拶から始まり、優しく時には厳しく指導します。たくさんの学校区から通っておられますので学校区の違う生徒・学年の違う生徒みんな仲がいい楽しく朗らかな教室です。</p>
+      <p>賞状を貰うときのキラキラした笑顔！ そろばん始めてみませんか？ ぜひ一度体験、見学に来てくださいね。</p>
+
+      <br class="clear">
+
+      <p>&nbsp;</p>
+      <p class="back"><a href="#index"><img class="scroll" src="img/pagetop.png" alt="ページトップに戻る"></a></p>
+
+    </div>
+  </div>
+
+  <p  id="2">&nbsp;</p>
+  <p id="5">&nbsp;</p>
+
+
+  <h2>
+    ３つのコース案内
+  </h2>
+
+  <br>
+
+  <p><img class="picture" src="img/point01.jpg" alt="photo"></p>
+
+  <p><span class="b_big_x">
+    「そろばん＋学習コース」
+  </span></p>
+
+  <p><span class="bold">【対象年齢】</span>５.６歳、小学生</p>
+
+  <p><span class="bold">【時間】</span>低学年クラス：60分/回　高学年クラス：90分/回　週２.３回</p>
+
+  <p><span class="bold">【カリキュラム】</span><br>
+    一人一人の進度や<span class="orange_big">学校に合わせた教材</span>を用いて、その子の<span class="red_x">能力を引き出す学習法</span>を行っています。
+    また苦手分野もゆっくりと理解できるまで歩幅を合わせて授業を行います。
+    <br>
+    そろばんの学習では<span class="red_x">検定試験や大会</span>に向けて日々練習し、いろんなレベルの子達と仲良く競い合うことでモチベーション向上にもつながる内容の濃い授業を行っています。
+  </p>
+
+
+  <p><br class="clear"></p>
+
+
+
+  <p id="6">&nbsp;</p>
+  <hr class="line">
+  <p>&nbsp;</p>
+
+
+
+
+
+
+  <p><img class="picture_r" src="img/point02.jpg" alt="photo"></p>
+
+  <p><span class="b_big_x">
+    「そろばんコース」
+  </span></p>
+
+  <p><span class="bold">【対象年齢】</span>小・中学生、高校生、大人</p>
+
+  <p><span class="bold">【時間】</span>60分/回 週２.３回</p>
+
+  <p><span class="bold">【カリキュラム】</span><br>
+    <span class="orange_big">基礎定着</span>から<span class="orange_big">強化選手育成</span>まで、そろばんに特化した授業を行います。
+    <br>
+    普段から切磋琢磨したり、大会前の<span class="red_x">強化練習</span>を行うことで<span class="red_x">レベルの高い大会にも通用するような実力</span>を身につけていきます。
+    <br>
+    算数の基礎である「計算」に自信をつけることが算数好きの第一歩。早く計算できる力は受験にも役立ちます。
+  </p>
+
+  <p><br class="clear"></p>
+
+
+
+  <p id="7">&nbsp;</p>
+  <hr class="line">
+  <p>&nbsp;</p>
+
+
+
+
+
+
+
+  <p><img class="picture" src="img/point03.jpg" alt="photo"></p>
+
+  <p><span class="b_big_x">
+    「そろばん幼児コース」
+  </span></p>
+
+  <p><span class="bold">【対象年齢】</span>３歳〜小学生入学まで</p>
+
+  <p><span class="bold">【時間】</span>30分/回 週１.２回</p>
+
+  <p><span class="bold">【カリキュラム】</span><br>
+    3才からの学習は子供の<span class="orange_big">潜在能力</span>を引き出す<span class="orange_big">黄金期</span>です。この時期までに基礎学習を行い、<span class="red_x">勉強に対する意欲や向上心</span>を上げる先駆けを行っています。
+    <br>
+    もちろん、そろばんや暗算学習も行い、計算能力を小さい頃から伸ばしていきます。
+  </p>
+
+  <p><br class="clear"></p>
+
+  <hr class="line">
+
+
+  <p id="3">&nbsp;</p>
+  <p class="back"><a href="#index"><img class="scroll" src="img/pagetop.png" alt="ページトップに戻る"></a></p>
+  <p>&nbsp;</p>
+
+  <h2>
+    授業料・入塾について
+  </h2>
+
+  <p>&nbsp;</p>
+
+
+  <table class="table_line">
+    <!-- １行目 -->
+    <tr>
+      <td class="table_1">コース</td>
+      <td colspan="2" class="table_1">そろばん＋学習コース</td>
+      <td colspan="2" class="table_1">そろばんコース</td>
+      <td colspan="2" class="table_1">そろばん幼児コース</td>
+    </tr>
+
+    <!-- ２行目 -->
+    <tr>
+      <td class="table_2"><b>対象</b></td>
+      <td class="table_3">低学年</td>
+      <td class="table_3">高学年</td>
+      <td colspan="2" class="table_3">幼児〜大人</td>
+      <td colspan="2" class="table_3">幼児</td>
+    </tr>
+
+    <!-- ３行目 -->
+    <tr>
+      <td class="table_4"><b>回数</b></td>
+      <td colspan="2" class="table">週２回</td>
+      <td class="table">週２回</td>
+      <td class="table">週３回</td>
+      <td class="table">週１回</td>
+      <td class="table">週２回</td>
+    </tr>
+
+    <!-- ４行目 -->
+    <tr>
+      <td class="table_4"><b>時間</b></td>
+      <td colspan="2" class="table">
+        16:30 〜 17:30 <br>
+        17:30 〜 18:30 <br>
+        18:30 〜 19:30
+      </td>
+      <td colspan="2" class="table">16:00 〜 16:30</td>
+      <td class="table">16:30 〜 17:30</td>
+      <td class="table">17:30 〜 19:00</td>
+    </tr>
+
+    <!-- ５行目 -->
+    <tr>
+      <td class="table_4"><b>授業料</b></td>
+      <td class="b_big_x">６，０００円</td>
+      <td class="b_big_x">７，０００円</td>
+      <td class="b_big_x">２，５００円</td>
+      <td class="b_big_x">４，０００円</td>
+      <td class="b_big_x">８，０００円</td>
+      <td class="b_big_x">１０，０００円</td>
+    </tr>
+    <!-- ６行目 -->
+    <td class="table_4"><b>開校日</b></td>
+    <td colspan="2" class="table">火曜日・金曜日</td>
+    <td colspan="2" class="table">月・火曜日　木・金曜日</td>
+    <td colspan="2" class="table">月・火曜日　木・金曜日</td>
+  </table>
+
+  <p>&nbsp;</p>
+
+  <p class="btn"><a href="https://form.run/@arahori-abacus">→体験授業・お問い合わせはこちら<br> (メールフォームに飛びます)</a></p>
+
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p id="4" class="back"><a href="#index"><img class="scroll" src="img/pagetop.png" alt="ページトップに戻る"></a></p>
+
+
+  <div class="flex_bg">
+    <div class="inners">
+
+      <p>&nbsp;</p>
+
+
+      <h2>
+        お問い合わせはコチラ
+      </h2>
+
+      <br>
+
+
+      <p><iframe class="picture_m" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13073.741864594598!2d135.9512206!3d34.9958028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe00ca848937953ca!2z6I2S5aCA44Gd44KN44Gw44KT5a2m57-S5aG-!5e0!3m2!1sja!2sjp!4v1619086885396!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+
+      <p><span class="b_big_x">
+        荒堀そろばん学習塾
+      </span><br>
+      Arahori Abacus-Study School
+    </p>
+
+    <p><img src="img/icon.gif" alt="icon"> <b>
+      電話番号
+    </b><br>
+    <span class="red_big_x">
+      077-562-5222 (教室)
+      <br>
+      090-6909-9945 (携帯)
+    </span></p>
+
+    <p><img src="img/icon.gif" alt="icon"> <b>
+      メールアドレス
+    </b> <br><span class="red_big_x">
+      mikachan0628@gmail.com
+    </span></p>
+
+    <p>
+      【住所】 525-0059 滋賀県草津市野路８−２０−１３
+    </p>
+
+    <p>
+      体験のお申し込みや質問など、気になることや
+      <br>
+      些細なことでもお気軽にお問い合わせ下さい。
+    </p>
+
+    <p class="btn"><a href="https://form.run/@arahori-abacus">→体験授業・お問い合わせはこちら<br> (メールフォームに飛びます)</a></p>
+
+    <br class="clear">
+
+
+    <p>&nbsp;</p>
+    <p class="back"><a href="#index"><img class="scroll" src="img/pagetop.png" alt="ページトップに戻る"></a></p>
+
+
+  </div>
+</div>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<h2>
+  もっと知りたい方へ
+</h2>
+
+<p>&nbsp;</p>
+
+
+<p><a href="https://ameblo.jp/arahorisoroban/"><img class="picture_r" src="img/Ameba2.png" alt="photo" width="300"></a></p>
+
+<p><span class="big">教室の最新情報や体験会の日程、大会や試験の結果や日々の練習風景をブログで掲載しています。</span></p>
+
+<p><span class="big">この教室の雰囲気をみたい方は右のアイコンからブログもみてくださいね。</span></p>
+
+<p><span class="b_big">ameba(アメバ)くんをクリック!</span></p>
+
+<p><br class="clear"></p>
+
+
+
+
+
+
+<p class="back"><a href="#index"><img class="scroll" src="img/pagetop.png" alt="ページトップに戻る"></a></p>
+
+
+</div>
+
+<!-- メインコンテンツ終わり -->
+
+</div>
+
+<!-- コンテンツ終わり -->
+
+<!-- フッター -->
+
+<div id="footer">
+  <p class="copy">
+    Copyright (C) 2021 Arahori Abacus-Study School All Rights Reserved.
+  </p>
+</div>
+
+</div>
+
+<!-- フッター終わり -->
+
+</div>
+
+<!-- メイン終わり -->
+
+</body>
+</html>
