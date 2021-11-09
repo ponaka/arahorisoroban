@@ -342,6 +342,271 @@ body {
   background: #636363;
 }
 
+/*---------- ママのやつ ----------*/
+.button2,
+a.button2,
+button.button2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.0;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+.button2-c-wrap {
+  float: left;
+  width: 31.4%;
+  padding: 4px;
+  margin: 30px 0;
+  text-align: center;
+}
+a.button2-c {
+    font-size: 1.55rem;
+    width: 100%;
+    position: relative;
+    padding: 0.25rem 0.25rem 0.5rem 0rem;
+    color: #fff;
+    background: #e94919;
+    -webkit-box-shadow: 0 5px 0 #d44114;
+    box-shadow: 0 5px 0 #d44114;
+}
+a.button2-c span {
+  font-size: 0.9rem;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 150px);
+  display: block;
+  width: 300px;
+  padding: 0.2rem 0;
+  color: #d44114;
+  border: 2px solid #d44114;
+  border-radius: 0.5rem;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+a.button2-c span:before,
+a.button2-c span:after {
+  position: absolute;
+  left: calc(50% - 10px);
+  content: "";
+}
+a.button2-c span:before {
+  bottom: -10px;
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #d44114 transparent transparent transparent;
+}
+a.button2-c span:after {
+  bottom: -7px;
+
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+a.button2-c:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+
+  color: #fff;
+  background: #eb5b30;
+  -webkit-box-shadow: 0 2px 0 #d44114;
+  box-shadow: 0 2px 0 #d44114;
+}
+a.button2-c:hover:before {
+  left: 2rem;
+}
+/*--------------------------------------
+コンバージョンアップボタン 緑色（中央寄せ）
+--------------------------------------*/
+.button1,
+a.button1,
+button.button1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.0;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+.button1-c-wrap {
+  float: left;
+  width: 31.4%;
+  padding: 4px;
+  margin: 30px 0;
+  text-align: center;
+}
+a.button1-c {
+    font-size: 1.55rem;
+    width: 100%;
+    position: relative;
+    padding: 0.25rem 0.25rem 0.5rem 0rem;
+    color: #fff;
+    background: #32b16c;
+    -webkit-box-shadow: 0 5px 0 #2c9d60;
+    box-shadow: 0 5px 0 #2c9d60;
+}
+a.button1-c span {
+  font-size: 0.9rem;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 150px);
+  display: block;
+  width: 300px;
+  padding: 0.2rem 0;
+  color: #32b16c;
+  border: 2px solid #32b16c;
+  border-radius: 0.5rem;
+  background: #fff;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+a.button1-c span:before,
+a.button1-c span:after {
+  position: absolute;
+  left: calc(50% - 10px);
+  content: "";
+}
+a.button1-c span:before {
+  bottom: -10px;
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #32b16c transparent transparent transparent;
+}
+a.button1-c span:after {
+  bottom: -7px;
+
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+a.button1-c:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+
+  color: #fff;
+  background: #30a967;
+  -webkit-box-shadow: 0 2px 0 #2c9d60;
+  box-shadow: 0 2px 0 #2c9d60;
+}
+a.button1-c:hover:before {
+  left: 2rem;
+}
+/*--------------------------------------
+コンバージョンアップボタン 黄色（中央寄せ）
+--------------------------------------*/
+.button3,
+a.button3,
+button.button3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.0;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+.button3-c-wrap {
+  float: left;
+  width: 31.4%;
+  padding: 4px;
+  margin: 30px 0;
+  text-align: center;
+}
+a.button3-c {
+    font-size: 1.55rem;
+    width: 100%;
+    position: relative;
+    padding: 0.25rem 0.25rem 0.5rem 0rem;
+    color: #333;
+    background: #fff100;
+    -webkit-box-shadow: 0 5px 0 #2c9d60;
+    box-shadow: 0 5px 0 #ccc100;
+}
+a.button3-c span {
+    font-size: 0.9rem;
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 150px);
+    display: block;
+    width: 300px;
+    padding: 0.2rem 0;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    background: #fff;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+a.button3-c span:before,
+a.button3-c span:after {
+  position: absolute;
+  left: calc(50% - 10px);
+  content: "";
+}
+a.button3-c span:before {
+  bottom: -10px;
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+a.button3-c span:after {
+  bottom: -7px;
+
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+a.button3-c:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  color: #333;
+  background: #fff100;
+  -webkit-box-shadow: 0 2px 0 #ccc100;
+  box-shadow: 0 2px 0 #ccc100;
+}
+a.button3-c:hover:before {
+  left: 2rem;
+}
+
 
 
 /*---------- 画像の回り込み ----------*/
